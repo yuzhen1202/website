@@ -1,0 +1,209 @@
+body{
+    background-image: url(images/4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center bottom ;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255);
+}
+
+.m_bg{
+    background-color:rgba(183, 183, 183, 0.6)
+}
+
+.navbar-light .navbar-brand {
+    color: rgb(255, 255, 255);
+    font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.6);
+    font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: rgb(255, 255, 255);
+    font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover{
+    color: rgb(237, 235, 66);
+}
+
+.box{
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.my_photo{
+    width:160px;
+}
+
+.contact{
+text-align: center;
+}
+
+.contact ul{
+    padding: 0;
+    list-style: none;
+}
+
+.contact ul li{
+display: inline-block;
+padding:20px 40px ;
+font-size:30px;
+}
+
+.contact ul li a{
+    color:rgba(42, 101, 250);
+    }
+
+.contact ul li a:hover{
+    color:rgba(145, 195, 255);
+        }
+
+
+/* 文字淡入淡出動畫 */
+.fade-text {
+  font-family: "LXGW WenKai Mono TC", monospace;
+  animation: fadeInOut 5s ease-in-out infinite;
+  opacity: 0;
+}
+
+/* 定義動畫的漸變過程 */
+@keyframes fadeInOut {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.myself-text {
+  font-family: "LXGW WenKai Mono TC", monospace;  
+  font-family: "Lilita One", sans-serif;
+}
+
+.motto-overlay {
+  position: absolute;
+  bottom: 80%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  color: white;
+  padding: 15px 30px;
+  border-radius: 1px;
+  font-size: 1.5rem;
+  font-family: "Ma Shan Zheng", cursive;
+  max-width: 90%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid white;
+}
+
+/* 打字機動畫 */
+.typewriter-text {
+  animation: typing 4s steps(30, end) infinite , blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.app-card {
+  background-color: #fffdf9;
+  border-left: 6px solid #f9c74f;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.app-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.app-card h6 {
+  font-weight: bold;
+  font-family: 'Lilita One', cursive;
+  color: #f9844a;
+}
+
+.app-card a {
+  text-decoration: none;
+  color: #577590;
+}
+
+.app-card a:hover {
+  text-decoration: underline;
+}
+
+.artwork-gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem; /* 圖片間距 */
+}
+
+.artwork-img {
+  width: 450px; /* 固定寬度 */
+  height: auto; /* 高度自動，維持比例 */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  object-fit: cover; /* 保持圖片裁切品質 */
+}
+
+.artwork-img:hover {
+  transform: scale(1.02);
+}
+
+.video-wrapper video {
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.about-section {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  padding: 3rem 1rem;
+}
+
+.about-section h3 {
+  font-family: 'Lilita One', cursive;
+  color: #466a85;
+}
+
+.about-section ul li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
